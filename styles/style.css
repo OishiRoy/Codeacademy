@@ -5,6 +5,7 @@ body {
     margin: 0 auto;
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
+    margin-top: auto;
 }
 
 .dev-bg-primary {
@@ -18,4 +19,20 @@ body {
 
 .bg-image-dark img {
     filter: brightness(50%)
+}
+
+
+.testimonial-prev-button,
+.testimonial-next-button {
+    width: 4%;
+    height: 13%;
+    top: 50%;
+}
+
+.testimonial-prev-button {
+    left: -2%;
+}
+
+.testimonial-next-button {
+    left: 98%;
 }
