@@ -6,3 +6,16 @@ body {
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
 }
+
+.dev-bg-primary {
+    background-color: #086296;
+}
+
+
+.carousel-item {
+    transition: transform 1s ease;
+}
+
+.bg-image-dark img {
+    filter: brightness(50%)
+}
